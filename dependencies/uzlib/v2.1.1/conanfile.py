@@ -9,7 +9,7 @@ class UzlibConan(ConanFile):
     description = 'uzlib - Deflate/Zlib-compatible LZ77 compression/decompression library'
     url = "http://www.ibsensoftware.com/"
 
-    exports_sources="Makefile.ios"
+    exports_sources='Makefile.ios'
 
     def source(self):
         git = tools.Git(folder="uzlib")
